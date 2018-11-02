@@ -1,0 +1,14 @@
+Install Howto
+
+    Enable PCLinuxOS x86_64 repository in /etc/apt/sources.list:
+
+
+    rpm http://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/apt/ pclinuxos/64bit x86_64
+
+    Update the package index:
+
+    # apt-get update
+
+    Install tor-browser-bundle rpm package:
+
+    # apt-get install tor-browser-bundle
